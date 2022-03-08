@@ -1,8 +1,9 @@
 name: User story template
 description: User story issue
-title: ''
+title: "[User Story]: "
 labels: [user story]
-assignees: 
+assignees: |
+- einar
 body:
 - type: markdown
   attributes:
