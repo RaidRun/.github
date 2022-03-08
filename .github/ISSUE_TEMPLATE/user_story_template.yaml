@@ -2,8 +2,7 @@ name: User story template
 description: User story issue
 title: "[User Story]: "
 labels: [user story]
-assignees: |
-- einar
+assignees: "einar"
 body:
 - type: markdown
   attributes:
