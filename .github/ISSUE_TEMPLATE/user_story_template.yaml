@@ -1,0 +1,18 @@
+name: User story template
+description: User story issue
+title: ''
+labels: [user story]
+assignees: 
+body:
+- type: markdown
+  attributes:
+    value: |
+      There need to be a reason
+- type: input
+  id: contact
+  attributes:
+    label: Contact Details
+    description: How can we get in touch with you if we need more info?
+    placeholder: ex. email@example.com
+  validations:
+    required: false
