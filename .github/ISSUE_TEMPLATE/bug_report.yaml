@@ -77,7 +77,7 @@ body:
     validations: 
       required: false
   
-   - type: textarea
+  - type: textarea
     id: todo
     attributes:
       label: "✅ Todo"
