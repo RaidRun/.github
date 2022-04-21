@@ -1,0 +1,71 @@
+name: User story template
+description: User story issue
+title: "[User Story]: "
+labels: [user story]
+assignees: ""
+body:
+  - type: textarea
+    id: summury
+    attributes:
+      label: ":book: Summary"
+      description: Give a summary of the user story
+      value: | 
+        **As a**
+        **I want to**
+        **So that**
+    validations:
+      required: true
+
+  - type: textarea
+    id: Accept
+    attributes:
+      label: ":clipboard: Acceptance Criteria"
+      description: Write down you acceptance criteria
+      value: | 
+        "#### Acceptance Critiera 1"
+        "**Given** precondition"
+        "**When** action"
+        "**Then** result"
+        
+        "#### Acceptance Criteria 2"
+        "**Given** precondition"
+        "**When** action"
+        "**Then** result"
+    validations:
+      required: true
+
+  - type: textarea
+    id: design
+    attributes:
+      label: ":paintbrush: Design"
+      description: Show your design
+      value: "[Links to your design system like Figma, Sketch,etc.](http://linkhere.com)"
+    validations:
+      required: false
+
+  - type: textarea
+    id: tech
+    attributes:
+      label: ":floppy_disk: Technical Information"
+      description: Any link to technical documents, e.g. Architectural diagram can be added here
+    validations:
+      required: false
+
+  - type: textarea
+    id: info
+    attributes:
+      label: ":ledger: Additional Notes / Information"
+      description: Any notes you took during refinement sessions or talks with other people about the story
+    validations:
+      required: false
+
+  - type: textarea
+    id: todo
+    attributes:
+      label: ":white_check_mark: Todo"
+      description: Any things that need to be done or that need to be clarified
+      options:
+        - label: Check if it work with minecraft
+    validations:
+      required: false
+ 
