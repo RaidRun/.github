@@ -2,7 +2,7 @@ name: User story template
 description: User story issue
 title: "[User Story]: "
 labels: [user story]
-assignees: ""
+assignees: 
 body:
   - type: textarea
     id: summury
@@ -66,6 +66,7 @@ body:
       description: Any things that need to be done or that need to be clarified
       options:
         - label: Check if it work with minecraft
+        - label: Remember to add repository label
     validations:
       required: false
  
