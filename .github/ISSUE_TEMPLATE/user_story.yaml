@@ -58,12 +58,10 @@ body:
     validations:
       required: false
 
-  - type: textarea
+  - type: markdown
     id: todo
-    attributes:
-      label: ":white_check_mark: Todo"
-      description: Any things that need to be done or that need to be clarified
-      options:
-        - label: Check if it work with minecraft
-        - label: Remember to add repository label
+    value: |
+      "## :white_check_mark: Todo"
+      "Any things that need to be done or that need to be clarified"
+      - [ ] Remember to add repository label
  
