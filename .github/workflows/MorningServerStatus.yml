@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Validate server is Up
+name: Morning server status
 
 # Controls when the workflow will run
 on:
@@ -22,7 +22,6 @@ jobs:
         run: |
           echo "::set-output name=ip::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq '.ip')"
           echo "::set-output name=port::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq '.port')"
-          echo "::set-output name=players::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq '.players.online')"
           echo "::set-output name=version::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq '.version')"
           echo "::set-output name=onlines::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq '.online')"
         id: info
@@ -50,8 +49,7 @@ jobs:
             <h1>Morning server status</h1>
             <p>IP: ${{steps.info.outputs.ip}}</p>
             <p>PORT: ${{steps.info.outputs.port}}</p>
-            <p>PLAYERS ONLINE: ${{steps.info.outputs.player}}</p>
             <p>VERSION: ${{steps.info.outputs.version}}</p>
-            <p>ONLINE: ${{steps.info.outputs.true}}</p>
+            <p>ONLINE: ${{steps.info.outputs.onlines}}</p>
 
           
