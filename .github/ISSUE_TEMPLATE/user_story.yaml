@@ -38,7 +38,7 @@ body:
     attributes:
       label: ":paintbrush: Design"
       description: Show your design
-      value: [Links to your design system like Figma, Sketch,etc.](http://linkhere.com)
+      value: "[Links to your design system like Figma, Sketch,etc.](http://linkhere.com)"
     validations:
       required: false
 
