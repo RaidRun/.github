@@ -9,7 +9,7 @@ body:
       label: "✅ What need to be done"
       description: Create a task list of what need to be done
       value: | 
-        - [] 
+        - [ ] 
     validations:
       required: true
 
@@ -17,9 +17,7 @@ body:
     id: whyNeeds
     attributes:
       label: "❓Why it need to be done"
-      description: Create a task list of what need to be done
-      value: | 
-        - [] 
+      description: Write down why these things need to be done.
     validations:
       required: true
 
