@@ -20,11 +20,11 @@ jobs:
       # Runs a single command using the runners shell
       - name: Get server info
         run: |
-          echo "::set-output name=ip::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq .ip')"
-          echo "::set-output name=port::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq .port')"
-          echo "::set-output name=players::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq .players.online')"
-          echo "::set-output name=version::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq .version')"
-          echo "::set-output name=onlines::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq .online')"
+          echo "::set-output name=ip::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq '.ip')"
+          echo "::set-output name=port::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq '.port')"
+          echo "::set-output name=players::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq '.players.online')"
+          echo "::set-output name=version::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq '.version')"
+          echo "::set-output name=onlines::$(curl https://api.mcsrvstat.us/2/158.69.226.136 | jq '.online')"
         id: info
 
       - name: Send mail
