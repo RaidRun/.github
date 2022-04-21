@@ -1,0 +1,60 @@
+name: Task template
+description: Task to for finishing user story
+title: "[Task]: "
+labels: [task]
+assignees: 
+body:
+  - type: textarea
+    id: whatNeeds
+    attributes:
+      label: "✅ What need to be done"
+      description: Create a task list of what need to be done
+      value: | 
+        - [] 
+    validations:
+      required: true
+
+  - type: textarea
+    id: whyNeeds
+    attributes:
+      label: "❓Why it need to be done"
+      description: Create a task list of what need to be done
+      value: | 
+        - [] 
+    validations:
+      required: true
+
+  - type: textarea
+    id: Accept
+    attributes:
+      label: "📋 Acceptance Criteria"
+      description: Write down your acceptance criteria
+      value: | 
+        "#### Acceptance Critiera 1"
+        "**Given** precondition"
+        "**When** action"
+        "**Then** result"
+        
+        "#### Acceptance Criteria 2"
+        "**Given** precondition"
+        "**When** action"
+        "**Then** result"
+    validations:
+      required: true
+
+  - type: textarea
+    id: info
+    attributes:
+      label: "📒 Additional Notes / Information"
+      description: Any notes you took during refinement sessions or talks with other people about the story
+    validations:
+      required: false
+
+  - type: textarea
+    id: todo
+    attributes:
+      label: "✅ Must be done"
+      description: Thing that need to be done before you create the task
+      value: |
+        - [ ] Add repository label
+ 
