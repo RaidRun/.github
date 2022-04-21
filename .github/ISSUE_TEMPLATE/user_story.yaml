@@ -62,7 +62,7 @@ body:
     id: todo
     attributes:
       label: "✅ Todo"
-      description: Any things that need to be done or that need to be clarified
+      description: Any things that need to be done to fullfill user story or that need to be clarified
       value: |
         - [ ] Check if it work with minecraft
         - [ ] Remember to add repository label
