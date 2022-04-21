@@ -66,6 +66,4 @@ body:
       options:
         - label: Check if it work with minecraft
         - label: Remember to add repository label
-    validations:
-      required: false
  
