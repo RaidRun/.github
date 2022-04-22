@@ -1,0 +1,63 @@
+name: Task template
+description: Epic Template
+title: "[Epic]: "
+labels: [Epic]
+pipeline: Epics
+body:
+  - type: textarea
+    id: summury
+    attributes:
+      label: "📖 Background"
+      description: 
+      value: | 
+        ##High level story
+        **As a**
+        **I want to**
+        **So that**
+
+        ##❓Problem
+        Explanation for why we want to do this epic. Maybe some supporting feedback or data.
+
+        💡 Solution
+        Overview of approach to solve the problem. Maybe a comparison of different solutions.
+
+        📝 Rollout plan
+        Actions needed to ensure the epic is successfully implemented
+    validations:
+      required: true
+
+
+  - type: textarea
+    id: sol
+    attributes:
+      label: "📋 Acceptance Criteria"
+      description: Write down your acceptance criteria
+      value: | 
+        "#### Acceptance Critiera 1"
+        "**Given** precondition"
+        "**When** action"
+        "**Then** result"
+        
+        "#### Acceptance Criteria 2"
+        "**Given** precondition"
+        "**When** action"
+        "**Then** result"
+    validations:
+      required: true
+
+  - type: textarea
+    id: stories
+    attributes:
+      label: "📚 Stories"
+      description: Solution as user stories. One bullet per story. Details like acceptance criteria should be linked 
+      value: |
+        - [ ] Add repository label
+
+  - type: textarea
+    id: todo
+    attributes:
+      label: "✅	 Todo"
+      description: Thing that need to be done before you create the task
+      value: |
+        - [ ] Add repository label
+ 
