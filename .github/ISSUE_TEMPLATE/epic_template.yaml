@@ -2,7 +2,6 @@ name: Task template
 description: Epic Template
 title: "[Epic]: "
 labels: [Epic]
-pipelines: Epics
 body:
   - type: textarea
     id: summury
@@ -60,4 +59,5 @@ body:
       description: Thing that need to be done before you create the task
       value: |
         - [ ] Add repository label
+        - [ ] Add to Epic pipeline
  
