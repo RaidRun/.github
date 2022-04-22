@@ -49,8 +49,9 @@ body:
     attributes:
       label: "📚 Stories"
       description: Solution as user stories. One bullet per story. Details like acceptance criteria should be linked 
-      value: |
-        - [ ] Add repository label
+    validation:
+      required: true
+
 
   - type: textarea
     id: todo
