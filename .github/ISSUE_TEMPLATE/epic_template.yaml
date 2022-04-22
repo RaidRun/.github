@@ -9,18 +9,18 @@ body:
       label: "📖 Background"
       description: 
       value: | 
-        ##High level story
+        ## High level story
         **As a**
         **I want to**
         **So that**
 
-        ##❓Problem
+        ## ❓Problem
         Explanation for why we want to do this epic. Maybe some supporting feedback or data.
 
-        💡 Solution
+        ## 💡 Solution
         Overview of approach to solve the problem. Maybe a comparison of different solutions.
 
-        📝 Rollout plan
+        ## 📝 Rollout plan
         Actions needed to ensure the epic is successfully implemented
     validations:
       required: true
@@ -32,15 +32,15 @@ body:
       label: "📋 Acceptance Criteria"
       description: Write down your acceptance criteria
       value: | 
-        "#### Acceptance Critiera 1"
-        "**Given** precondition"
-        "**When** action"
-        "**Then** result"
+        #### Acceptance Critiera 1
+        **Given** precondition
+        **When** action
+        **Then** result
         
-        "#### Acceptance Criteria 2"
-        "**Given** precondition"
-        "**When** action"
-        "**Then** result"
+        #### Acceptance Criteria 2
+        **Given** precondition
+        **When** action
+        **Then** result
     validations:
       required: true
 
