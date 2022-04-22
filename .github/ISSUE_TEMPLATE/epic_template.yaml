@@ -2,7 +2,7 @@ name: Task template
 description: Epic Template
 title: "[Epic]: "
 labels: [Epic]
-pipeline: Epics
+pipelines: Epics
 body:
   - type: textarea
     id: summury
