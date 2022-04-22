@@ -1,5 +1,5 @@
-name: Task template
-description: Epic Template
+name: Epic template
+description: Template that help you create an epic
 title: "[Epic]: "
 labels: [Epic]
 body:
