@@ -1,5 +1,5 @@
 ## Hi there 👋
-
+[![Deploy to Dev](https://github.com/RaidRun/AdventurePlugin/actions/workflows/deploy_to_dev.yml/badge.svg?branch=develop)](https://github.com/RaidRun/AdventurePlugin/actions/workflows/deploy_to_dev.yml)
 <!--
 
 **Here are some ideas to get you started:**
