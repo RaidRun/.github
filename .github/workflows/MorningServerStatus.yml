@@ -40,7 +40,7 @@ jobs:
           # Required mail subject:
           subject: RaidRun morgning server status
           # Required recipients' addresses:
-          to: ${{secrets.MAIL_TO
+          to: ${{secrets.MAIL_TO}}
           # Required sender full name (address can be skipped):
           from: Github Action
           # Optional whether this connection use TLS (default is true if server_port is 465)
