@@ -49,7 +49,7 @@ body:
     attributes:
       label: "📚 Stories"
       description: Solution as user stories. One bullet per story. Details like acceptance criteria should be linked 
-    validation:
+    validations:
       required: true
 
 
