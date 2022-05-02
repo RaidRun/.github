@@ -27,6 +27,7 @@ jobs:
         id: info
 
       - name: Send mail
+        if: ${{steps.info.outputs.onlines}} == 'false'
         uses: dawidd6/action-send-mail@v3
         with:
           # Required mail server address:
