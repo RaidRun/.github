@@ -41,3 +41,4 @@ Provide instructions so we can reproduce. Please also list any relevant details 
 - [ ] I have checked my code and corrected any misspellings
 - [ ] The commit message follows our guidelines
 - [ ] Does the pull reqeust have one of the following labels: feature, fix, breaking changes, other?
+- [ ] Does the title of the pull reqeust describe the change?
