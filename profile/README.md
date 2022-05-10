@@ -1,7 +1,9 @@
 ## Hi there 👋
-### AdventurPlugin develop:[![CI/CD](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml/badge.svg?branch=develop)](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml) production: [![CI/CD](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml/badge.svg?branch=master)](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml)
+### AdventurPlugin 
+**Development**:[![CI/CD](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml/badge.svg?branch=develop)](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml) **Production**: [![CI/CD](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml/badge.svg?branch=master)](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml)
 
-### KageCloud [![Deploy to Dev](https://github.com/RaidRun/KageCloud/actions/workflows/deploy_to_dev.yml/badge.svg)](https://github.com/RaidRun/KageCloud/actions/workflows/deploy_to_dev.yml)
+### KageCloud 
+**Development**: **Production**: 
 <!--
 
 **Here are some ideas to get you started:**
