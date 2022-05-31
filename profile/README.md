@@ -4,8 +4,8 @@
 **Production**: [![CI/CD](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml/badge.svg?branch=master)](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml)
 
 ### KageCloud 
-**Development**: \
-**Production**:
+**Development**:[![CI/CD](https://github.com/RaidRun/KageCloud/actions/workflows/CI_CD.yml/badge.svg?branch=develop)](https://github.com/RaidRun/KageCloud/actions/workflows/CI_CD.yml)
+**Production**:[![CI/CD](https://github.com/RaidRun/KageCloud/actions/workflows/CI_CD.yml/badge.svg?branch=master)](https://github.com/RaidRun/KageCloud/actions/workflows/CI_CD.yml)
 
 ### KageCore
 **Development**: [![CI/CD](https://github.com/RaidRun/KageCore/actions/workflows/CI_CD.yml/badge.svg?branch=develop)](https://github.com/RaidRun/KageCore/actions/workflows/CI_CD.yml) \
