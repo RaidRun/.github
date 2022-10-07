@@ -1,5 +1,5 @@
 ## Hi there 👋
-### AdventurPlugin 
+### AdventurePlugin 
 **Development**:[![CI/CD](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml/badge.svg?branch=develop&event=push)](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml) \
 **Production**: [![CI/CD](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml/badge.svg?branch=master&event=push)](https://github.com/RaidRun/AdventurePlugin/actions/workflows/CI_CD.yml)
 
