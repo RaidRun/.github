@@ -11,7 +11,7 @@ body:
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: Reproduce
     attributes:
@@ -24,7 +24,7 @@ body:
         3. Scroll down to '....'
         4. See error
     validations:
-      required: true
+      required: false
   - type: textarea
     id: expected-behavior
     attributes:
@@ -33,7 +33,7 @@ body:
       placeholder: Tell us what you see!
       value: This should happen...
     validations:
-      required: true
+      required: false
   - type: textarea
     id: screenshots
     attributes:
@@ -50,7 +50,7 @@ body:
       label: Minecraft version
       description: What version of minecraft are you running?
     validations:
-      required: true
+      required: false
   - type: textarea
     id: logs
     attributes:
